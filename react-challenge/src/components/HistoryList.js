@@ -1,5 +1,5 @@
 import React from 'react'
-// import CommentIcon from '@mui/icons-material/Comment';
+import CommentIcon from '@mui/icons-material/Comment';
 import { List, ListItem, ListItemButton, ListItemIcon, ListItemText, Checkbox, IconButton } from '@mui/material';
 
 export const HistoryList = () =>{
@@ -28,7 +28,7 @@ export const HistoryList = () =>{
             key={value}
             secondaryAction={
               <IconButton edge="end" aria-label="comments">
-                {/* <CommentIcon /> */}
+                <CommentIcon />
               </IconButton>
             }
             disablePadding
